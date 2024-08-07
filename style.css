@@ -42,7 +42,6 @@ nav h1 {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     gap: 8px;
-    border: 8px solid var(--main-color);
     border-radius: 8px;
     background-color: var(--main-color);
     width: 400px;
@@ -155,6 +154,7 @@ form input {
     border: none;
     border-radius: 8px;
     font-size: 1rem;
+    background-color: #E5E4E2;
 }
 
 .first-input {
