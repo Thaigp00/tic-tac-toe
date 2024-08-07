@@ -117,7 +117,7 @@ const Game = (function() {
                     currentPlayer = (currentPlayer === Player1) ? Player2 : Player1;
                     Display.update(currentPlayer, square, Gameboard.isOver(), move);
 
-                    if (Gameboard.isOver()) setTimeout(restart, 3000);
+                    if (Gameboard.isOver()) setTimeout(restart, 2000);
                 }
             });
         });
